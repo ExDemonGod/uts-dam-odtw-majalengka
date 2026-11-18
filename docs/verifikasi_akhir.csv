@@ -1,0 +1,19 @@
+pemeriksaan,status,detail
+MD5 output sama dengan metadata,LULUS,a104c0a6a805451134069574cf96fb22
+Jumlah baris input = output = data aktual,LULUS,250
+Kolom id unik,LULUS,duplikat: 0
+Tidak ada baris duplikat penuh,LULUS,duplikat: 0
+Persentase match >= 90.0%,LULUS,100.0%
+Kolom wajib tersedia,LULUS,[]
+Tahun berada dalam rentang wajar,LULUS,2020-2023
+"Tidak ada PII (email, telepon, NIK)",LULUS,"{'email': 0, 'telepon': 0, 'nik': 0}"
+Baris API >= 30,LULUS,35
+Tepat 7 tanggal per kecamatan,LULUS,"{'BANJARAN': 7, 'JATITUJUH': 7, 'MAJALENGKA': 7, 'RAJAGALUH': 7, 'SINDANGWANGI': 7}"
+Suhu minimum <= suhu maksimum,LULUS,
+Curah hujan tidak negatif dan tidak kosong,LULUS,
+Semua berkas raw ada di provenance,LULUS,[]
+MD5 berkas raw cocok dengan provenance,LULUS,[]
+Checklist etika berisi 9 butir,LULUS,9
+Tidak ada butir checklist yang 'Perlu tindakan',LULUS,[]
+SHA-256 cache cocok dengan manifest,LULUS,[]
+Tidak ada rahasia tertulis di berkas proyek,LULUS,[]
