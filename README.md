@@ -8,7 +8,7 @@ Dosen: Dr. I Gede Totok Suryawan, S.Kom., M.T.
 |---|---|
 | **Nama** | Si Ngurah Rai Krisna Pranajaya |
 | **NIM** | 2501010375 |
-| **Notebook pipeline (Colab)** | https://colab.research.google.com/drive/1SitNbAt4De788772pantctI6xH5BnfnZ#scrollTo=a0bPQ6fjH3mI |
+| **Notebook pipeline (Colab)** | https://colab.research.google.com/drive/10sMNJ1IaslC-j3wTyHi5xAHE-JZ4Qbme#scrollTo=PcDKFmazX6hv |
 | **Repositori** | https://github.com/ExDemonGod/uts-dam-odtw-majalengka |
 
 ---
