@@ -166,7 +166,7 @@ Notebook lanjutan menyimpan respons API dan halaman portal ke folder `cache/`, d
 - `cache/manifest.json` mencatat waktu unduh dan SHA-256 tiap berkas. Pemeriksaan verifikasi memastikan SHA-256 berkas cache masih cocok dengan manifest.
 - Folder `cache/` tidak di-commit (tercantum di `.gitignore`).
 
-### Tambahan — Visualisasi
+### — Visualisasi
 
 Lima grafik dibuat dari data hasil pipeline dan disimpan ke `docs/figures/`:
 
@@ -176,7 +176,7 @@ Lima grafik dibuat dari data hasil pipeline dan disimpan ke `docs/figures/`:
 4. `04_suhu_7_hari.png`: prakiraan suhu maks dan min 7 hari per kecamatan
 5. `05_curah_hujan_7_hari.png`: total curah hujan 7 hari per kecamatan
 
-### Tambahan — Verifikasi akhir
+### — Verifikasi akhir
 
 Semua pemeriksaan dijalankan ulang dari berkas di disk, bukan dari variabel sesi. Hasilnya disimpan di `docs/verifikasi_akhir.csv`.
 
@@ -191,30 +191,6 @@ Semua pemeriksaan dijalankan ulang dari berkas di disk, bukan dari variabel sesi
 | Rahasia | Tidak ada token, kunci, atau kredensial di URL pada berkas proyek |
 
 Hasil terakhir: [isi jumlah pemeriksaan lulus, misalnya 17/17].
-
----
-
-## 5. Cara Menjalankan Ulang
-
-**Google Colab**
-
-1. Buka notebook pipeline dari tautan Colab di atas, lalu jalankan semua sel (*Runtime → Run all*). Pastikan berkas CSV sudah ada di `data/raw/` atau diunggah saat diminta.
-2. Di panel 🔑 **Secrets**, tambahkan `CONTACT_EMAIL` berisi email kampus, dan aktifkan *Notebook access*.
-3. Buka notebook lanjutan dan jalankan semua sel. Bagian visualisasi dan verifikasi membutuhkan hasil pipeline.
-4. Untuk memasukkan ke GitHub, tambahkan `GITHUB_TOKEN` (fine-grained, izin *Contents: Read and write*) di Secrets, lalu ubah `DO_PUSH = True` pada bagian 5. Tanpa langkah ini, repositori dapat diisi manual lewat unggah di browser.
-
-**Lokal**
-
-```bash
-git clone https://github.com/[USERNAME]/uts-dam-odtw-majalengka.git
-cd uts-dam-odtw-majalengka
-pip install pandas requests beautifulsoup4 lxml matplotlib
-jupyter notebook notebook/UTS_DAM_ODTW_Majalengka_lanjutan.ipynb
-```
-
-Catatan: di luar Colab, `google.colab.userdata` tidak tersedia. Notebook akan membaca `CONTACT_EMAIL` dan `GITHUB_TOKEN` dari environment variable.
-
----
 
 ## 6. Keamanan dan Etika
 
