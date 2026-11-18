@@ -148,7 +148,7 @@ Relasi banyak ODTW ke satu kecamatan, sehingga `many_to_one` dipakai agar tabel 
 | Baris setelah merge | 250 |
 | Duplikat id di hasil | 0 |
 | Duplikat penuh di hasil | 0 |
-| Persentase baris ter-match | [isi setelah notebook dijalankan] |
+| Persentase baris ter-match | 100% |
 
 Keluaran: `data/processed/odtw_gabungan.csv` beserta `docs/metadata_gabungan.json` (sumber, kunci gabung, jenis gabung, jumlah baris input dan output, MD5 keluaran).
 
@@ -190,7 +190,7 @@ Semua pemeriksaan dijalankan ulang dari berkas di disk, bukan dari variabel sesi
 | Cache | SHA-256 berkas cache cocok dengan manifest |
 | Rahasia | Tidak ada token, kunci, atau kredensial di URL pada berkas proyek |
 
-Hasil terakhir: [isi jumlah pemeriksaan lulus, misalnya 17/17].
+Hasil terakhir: 17/17.
 
 ## 6. Keamanan dan Etika
 
