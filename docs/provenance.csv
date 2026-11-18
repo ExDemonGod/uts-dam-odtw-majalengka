@@ -1,5 +1,10 @@
-jenis,url,tanggal_akses,lisensi,berkas,md5
-berkas,https://data.go.id/dataset/dataset/daftar-potensi-objek-daya-tarik-wisata-odtw-di-kabupaten-majalengka,2026-11-18,tidak diketahui (perlu dicek di halaman dataset),data/raw/dftr_ptns_bjk_dy_trk_wst_dtw_d_kbptn_mjlngk_2.csv,8ed945d4c9603d756f2053d7054fd073
-api,https://api.open-meteo.com/v1/forecast,belum diambil (diisi saat notebook dijalankan),Open-Meteo: CC BY 4.0 (verifikasi di open-meteo.com),data/raw/api_openmeteo_majalengka.json,belum ada
-scraping,https://id.wikipedia.org/wiki/Kabupaten_Majalengka,belum diambil (diisi saat notebook dijalankan),CC BY-SA 4.0 (Wikipedia),data/raw/wiki_kabupaten_majalengka.html,belum ada
-scraping-tabel,https://id.wikipedia.org/wiki/Kabupaten_Majalengka,belum diambil (diisi saat notebook dijalankan),CC BY-SA 4.0 (Wikipedia),data/raw/wiki_tabel_kecamatan.csv,belum ada
+file,sumber,url,tanggal_akses,lisensi,bytes,md5
+data/raw/api/forecast_banjaran.json,(b) API,https://api.open-meteo.com,2026-11-18,CC BY 4.0 (Open-Meteo; cek ketentuan terbaru),583,f73b61aa62b39b03352902e1115c90e5
+data/raw/api/forecast_jatitujuh.json,(b) API,https://api.open-meteo.com,2026-11-18,CC BY 4.0 (Open-Meteo; cek ketentuan terbaru),582,fb4e9c29dbe166b14f5868c81ce87973
+data/raw/api/forecast_majalengka.json,(b) API,https://api.open-meteo.com,2026-11-18,CC BY 4.0 (Open-Meteo; cek ketentuan terbaru),588,f872e2f0fe1fb51d64eff90b058ff0f6
+data/raw/api/forecast_rajagaluh.json,(b) API,https://api.open-meteo.com,2026-11-18,CC BY 4.0 (Open-Meteo; cek ketentuan terbaru),590,141686be63301e2c75653a9631606ba5
+data/raw/api/forecast_sindangwangi.json,(b) API,https://api.open-meteo.com,2026-11-18,CC BY 4.0 (Open-Meteo; cek ketentuan terbaru),591,71fcab580bbf84b7c9ef895a7b1ca88c
+data/raw/bukti_halaman_portal_data_go_id.html,(a) berkas,https://data.go.id/dataset/dataset/daftar-potensi-objek-daya-tarik-wisata-odtw-di-kabupaten-majalengka,2026-11-18,Tidak tercantum di halaman portal (diperiksa 18-11-2026),87941,5127d83ef51f175849e3dfa89fd5a203
+data/raw/dftr_ptns_bjk_dy_trk_wst_dtw_d_kbptn_mjlngk_2.csv,(a) berkas,https://data.go.id/dataset/dataset/daftar-potensi-objek-daya-tarik-wisata-odtw-di-kabupaten-majalengka,2026-11-18,Tidak tercantum di halaman portal (diperiksa 18-11-2026),32843,8ed945d4c9603d756f2053d7054fd073
+data/raw/scrape/wikipedia_kabupaten_majalengka.html,(c) scraping,https://id.wikipedia.org/wiki/Kabupaten_Majalengka,2026-11-18,CC BY-SA 4.0 (Wikipedia; cek ketentuan terbaru),470014,e9783a6fb819fb99019c2322d13a27f0
+data/raw/scrape/wikipedia_tabel_kecamatan.csv,(c) scraping,https://id.wikipedia.org/wiki/Kabupaten_Majalengka,2026-11-18,CC BY-SA 4.0 (Wikipedia; cek ketentuan terbaru),4578,e0cbb2f37be5619aeb471ea57610a335

@@ -1,0 +1,10 @@
+no,butir,status,bukti
+1,Sumber data jelas dan sah,Terpenuhi,"Diterbitkan Kabupaten Majalengka, tercatat di data.go.id; dipublikasi 13-06-2024, diubah 13-08-2024. URL: https://data.go.id/dataset/dataset/daftar-potensi-objek-daya-tarik-wisata-odtw-di-kabupaten-majalengka"
+2,Lisensi diketahui dan sesuai pemakaian,Belum pasti,"Halaman tidak mencantumkan field lisensi. Pencarian kata kunci: {'lisensi': 'TIDAK DITEMUKAN', 'license': 'TIDAK DITEMUKAN', 'CC BY': 'TIDAK DITEMUKAN', 'Terbuka': 'nsip SDI. Daftar Potensi Objek Daya Tarik Wisata (ODTW) di Kabupaten Majalengka Terbuka <p>Dataset ini berisi data daftar potensi objek daya tarik wisata (odtw) di Kabupaten Majalengka dari tahun 2020'}. Pemakaian dibatasi untuk tugas akademik; tidak diredistribusi."
+3,Hak dan persetujuan subjek data,Tidak relevan,"Data berisi objek wisata dan lokasinya, bukan data individu."
+4,Tidak ada PII langsung,Terpenuhi,"Pemindaian regex: {'email': 0, 'telepon': 0, 'nik_16_digit': 0}"
+5,Quasi-identifier dikenali dan dinilai,Terpenuhi,Kode dan nama wilayah serta tahun adalah quasi-identifier tingkat rendah karena menunjuk lokasi publik. Lihat tabel klasifikasi kolom (qi_table).
+6,Minimisasi data,Terpenuhi,Data mentah disimpan utuh di data/raw. Analisis hanya memakai kolom yang diperlukan.
+7,"Akuisisi etis (robots.txt, jeda, identitas, timeout)",Terpenuhi,"robots.txt diperiksa (Soal 4). Jeda 2.0 detik, timeout 20 detik, User-Agent berisi email kampus."
+8,Kredensial tidak tertulis di notebook,Terpenuhi,Open-Meteo tidak memakai API key. Tidak ada token atau kata sandi di notebook.
+9,Atribusi dan penggunaan wajar,Terpenuhi,Sumber dicantumkan di docs/provenance.csv. Hasil hanya untuk tugas UTS.

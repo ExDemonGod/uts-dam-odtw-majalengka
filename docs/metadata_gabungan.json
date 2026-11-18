@@ -1,0 +1,13 @@
+{
+  "dibuat": "2026-11-18",
+  "sumber": [
+    "(a) berkas ODTW dari data.go.id",
+    "(c) tabel kecamatan dari Wikipedia Bahasa Indonesia"
+  ],
+  "kunci_gabung": "kunci_kecamatan (nama kecamatan dinormalisasi)",
+  "jenis_gabung": "left join, validate=many_to_one",
+  "baris_input": 250,
+  "baris_output": 250,
+  "persen_match": 100.0,
+  "md5_output": "a104c0a6a805451134069574cf96fb22"
+}
