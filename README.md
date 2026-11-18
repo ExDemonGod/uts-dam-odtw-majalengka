@@ -40,9 +40,9 @@ Provenance dibuat ulang setelah pemeriksaan akhir menemukan bahwa MD5 halaman po
 | Berkas | Ukuran (byte) | MD5 |
 |---|---:|---|
 | `dftr_ptns_bjk_dy_trk_wst_dtw_d_kbptn_mjlngk_2.csv` | 32.843 | `8ed945d4c9603d756f2053d7054fd073` |
-| `api/forecast_*.json` | [isi dari provenance.csv] | [isi dari provenance.csv] |
-| `scrape/wikipedia_kabupaten_majalengka.html` | [isi dari provenance.csv] | [isi dari provenance.csv] |
-| `scrape/wikipedia_tabel_kecamatan.csv` | [isi dari provenance.csv] | [isi dari provenance.csv] |
+| `api/forecast_*.json` | 588 | f872e2f0fe1fb51d64eff90b058ff0f6 |
+| `scrape/wikipedia_kabupaten_majalengka.html` | 470.014 | e9783a6fb819fb99019c2322d13a27f0 |
+| `scrape/wikipedia_tabel_kecamatan.csv` | 4.578 | e0cbb2f37be5619aeb471ea57610a335 |
 
 Nilai API dan scraping diisi dari `docs/provenance.csv` setelah notebook dijalankan.
 
