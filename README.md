@@ -6,11 +6,10 @@ Dosen: Dr. I Gede Totok Suryawan, S.Kom., M.T.
 
 | | |
 |---|---|
-| **Nama** | [NAMA LENGKAP] |
-| **NIM** | [NIM] |
-| **Notebook pipeline (Colab)** | [URL Colab pipeline Soal 1–5] |
-| **Notebook lanjutan (Colab)** | [URL Colab cache, visualisasi, verifikasi] |
-| **Repositori** | https://github.com/[USERNAME]/uts-dam-odtw-majalengka |
+| **Nama** | Si Ngurah Rai Krisna Pranajaya |
+| **NIM** | 2501010375 |
+| **Notebook pipeline (Colab)** | https://colab.research.google.com/drive/1SitNbAt4De788772pantctI6xH5BnfnZ#scrollTo=a0bPQ6fjH3mI |
+| **Repositori** | https://github.com/ExDemonGod/uts-dam-odtw-majalengka |
 
 ---
 
